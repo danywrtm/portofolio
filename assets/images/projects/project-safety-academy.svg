@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad7" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c1014"/>
+      <stop offset="100%" stop-color="#131a22"/>
+    </linearGradient>
+    <pattern id="grid7" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1c2836" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgGrad7)"/>
+  <rect width="800" height="500" fill="url(#grid7)"/>
+  <text x="50" y="70" font-family="monospace" font-size="12" fill="#06b6d4" letter-spacing="2">HUMAN CAPITAL &amp; SAFETY CAPABILITY</text>
+  <text x="50" y="105" font-family="'Anton', sans-serif" font-size="28" fill="#ffffff" letter-spacing="1">NEW EMPLOYEE SAFETY ONBOARDING &amp; KYT ACADEMY</text>
+  <text x="750" y="70" font-family="monospace" font-size="12" fill="#10b981" text-anchor="end">1,000+ EMPLOYEES TRAINED</text>
+  <g transform="translate(120, 160)">
+    <circle cx="90" cy="80" r="70" fill="#facc15" stroke="#d97706" stroke-width="2"/>
+    <path d="M 10 95 Q 90 80 170 95 L 180 115 Q 90 100 0 115 Z" fill="#d97706"/>
+    <rect x="82" y="15" width="16" height="65" fill="#fef08a" rx="4" opacity="0.6"/>
+    <g transform="translate(75, 45)">
+      <rect x="10" y="0" width="10" height="30" fill="#10b981"/>
+      <rect x="0" y="10" width="30" height="10" fill="#10b981"/>
+    </g>
+    <text x="90" y="155" font-family="monospace" font-size="11" fill="#ffffff" font-weight="bold" text-anchor="middle">HSE INDUCTION ACADEMY</text>
+    <g transform="translate(40, 180)">
+      <rect width="100" height="30" rx="15" fill="#10b981"/>
+      <text x="50" y="20" font-family="monospace" font-size="11" fill="#000" font-weight="bold" text-anchor="middle">YOSHI! (OK!)</text>
+    </g>
+  </g>
+  <g transform="translate(360, 150)">
+    <rect width="380" height="260" rx="6" fill="#101720" stroke="#1d2d3f" stroke-width="2"/>
+    <rect width="380" height="35" rx="6" fill="#192535"/>
+    <text x="16" y="23" font-family="monospace" font-size="12" fill="#06b6d4" font-weight="bold">STANDARDIZED TRAINING CURRICULUM</text>
+    <g transform="translate(20, 50)">
+      <rect width="160" height="85" rx="4" fill="#14202d" stroke="#10b981" stroke-width="1"/>
+      <text x="12" y="24" font-family="monospace" font-size="11" fill="#10b981" font-weight="bold">MODULE 1: INDUCTION</text>
+      <text x="12" y="45" font-family="sans-serif" font-size="10" fill="#94a3b8">K3L policy, basic hazard identification &amp; PPE discipline.</text>
+    </g>
+    <g transform="translate(200, 50)">
+      <rect width="160" height="85" rx="4" fill="#14202d" stroke="#ff6b1a" stroke-width="1"/>
+      <text x="12" y="24" font-family="monospace" font-size="11" fill="#ff6b1a" font-weight="bold">MODULE 2: FIRE DRILL</text>
+      <text x="12" y="45" font-family="sans-serif" font-size="10" fill="#94a3b8">APAR PASS method hands-on &amp; emergency assembly point.</text>
+    </g>
+    <g transform="translate(20, 150)">
+      <rect width="160" height="85" rx="4" fill="#14202d" stroke="#facc15" stroke-width="1"/>
+      <text x="12" y="24" font-family="monospace" font-size="11" fill="#facc15" font-weight="bold">MODULE 3: RIDING</text>
+      <text x="12" y="45" font-family="sans-serif" font-size="10" fill="#94a3b8">Defensive motorcycle riding &amp; commuting safety protocols.</text>
+    </g>
+    <g transform="translate(200, 150)">
+      <rect width="160" height="85" rx="4" fill="#14202d" stroke="#a855f7" stroke-width="1"/>
+      <text x="12" y="24" font-family="monospace" font-size="11" fill="#a855f7" font-weight="bold">MODULE 4: EVACUATION</text>
+      <text x="12" y="45" font-family="sans-serif" font-size="10" fill="#94a3b8">Earthquake &amp; catastrophic escape route simulated drill.</text>
+    </g>
+  </g>
+  <text x="50" y="460" font-family="monospace" font-size="11" fill="#5d7185">CONTINUOUS BEHAVIORAL SAFETY // KIKEN YOCHI TOUCH &amp; CALL</text>
+  <text x="750" y="460" font-family="monospace" font-size="11" fill="#06b6d4" text-anchor="end">PASSING RATE: 100%</text>
+</svg>

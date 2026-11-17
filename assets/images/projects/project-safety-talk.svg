@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0f0d"/>
+      <stop offset="100%" stop-color="#111914"/>
+    </linearGradient>
+    <pattern id="grid1" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1b2720" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgGrad1)"/>
+  <rect width="800" height="500" fill="url(#grid1)"/>
+  <!-- Industrial Hazard Stripe Bar -->
+  <g transform="translate(50, 40)">
+    <rect x="0" y="0" width="700" height="12" fill="#1a241e" rx="2"/>
+    <path d="M10 0 L22 12 M30 0 L42 12 M50 0 L62 12 M70 0 L82 12 M90 0 L102 12 M110 0 L122 12 M130 0 L142 12 M150 0 L162 12 M170 0 L182 12 M190 0 L202 12 M210 0 L222 12 M230 0 L242 12 M250 0 L262 12 M270 0 L282 12 M290 0 L302 12 M310 0 L322 12 M330 0 L342 12 M350 0 L362 12 M370 0 L382 12 M390 0 L402 12 M410 0 L422 12 M430 0 L442 12 M450 0 L462 12 M470 0 L482 12 M490 0 L502 12 M510 0 L522 12 M530 0 L542 12 M550 0 L562 12 M570 0 L582 12 M590 0 L602 12 M610 0 L622 12 M630 0 L642 12 M650 0 L662 12 M670 0 L682 12 M690 0 L702 12" stroke="#facc15" stroke-width="4" opacity="0.55"/>
+  </g>
+  <!-- Technical Labels -->
+  <text x="50" y="85" font-family="monospace" font-size="12" fill="#10b981" letter-spacing="2">HSE CORE MODULE // PROTOCOL 01</text>
+  <text x="50" y="115" font-family="'Anton', sans-serif" font-size="28" fill="#ffffff" letter-spacing="1">DAILY SAFETY TALK &amp; STOP 6 CULTURE</text>
+  <text x="750" y="85" font-family="monospace" font-size="12" fill="#ff6b1a" text-anchor="end">PT FUJI SEAT INDONESIA</text>
+  <!-- Central Graphic -->
+  <g transform="translate(120, 260)">
+    <circle cx="0" cy="0" r="70" fill="#131e17" stroke="#10b981" stroke-width="2" stroke-dasharray="6 4"/>
+    <circle cx="0" cy="0" r="55" fill="#18261e" stroke="#ff6b1a" stroke-width="1.5"/>
+    <path d="M-20 -15 L-5 -15 L15 -30 L15 30 L-5 15 L-20 15 Z" fill="#10b981"/>
+    <path d="M-20 0 L-25 18 L-18 20 L-14 0 Z" fill="#0d9668"/>
+    <path d="M22 -12 A 18 18 0 0 1 22 12" fill="none" stroke="#ff6b1a" stroke-width="3" stroke-linecap="round"/>
+    <path d="M28 -20 A 28 28 0 0 1 28 20" fill="none" stroke="#facc15" stroke-width="3" stroke-linecap="round"/>
+    <text x="0" y="95" font-family="monospace" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">MORNING TALK (07:30)</text>
+  </g>
+  <path d="M 195 260 L 290 260" stroke="#10b981" stroke-width="2" stroke-dasharray="4 4"/>
+  <!-- Central Matrix Box -->
+  <g transform="translate(290, 160)">
+    <rect width="440" height="240" rx="8" fill="#121c16" stroke="#263a2d" stroke-width="2"/>
+    <rect width="440" height="35" rx="8" fill="#1a2820"/>
+    <text x="16" y="23" font-family="monospace" font-size="12" fill="#10b981" font-weight="bold">STOP 6 HAZARD MATRIX // BEHAVIOR OBSERVATION</text>
+    <circle cx="418" cy="18" r="6" fill="#10b981"/>
+    <!-- 6 Hexagon Items -->
+    <g transform="translate(25, 60)">
+      <rect width="120" height="65" rx="4" fill="#18241d" stroke="#ff6b1a" stroke-width="1"/>
+      <text x="10" y="22" font-family="monospace" font-size="11" fill="#ff6b1a" font-weight="bold">1. APPARATUS</text>
+      <text x="10" y="42" font-family="sans-serif" font-size="10" fill="#9bb3a5">Caught in machine</text>
+    </g>
+    <g transform="translate(160, 60)">
+      <rect width="120" height="65" rx="4" fill="#18241d" stroke="#10b981" stroke-width="1"/>
+      <text x="10" y="22" font-family="monospace" font-size="11" fill="#10b981" font-weight="bold">2. HEAVY LOAD</text>
+      <text x="10" y="42" font-family="sans-serif" font-size="10" fill="#9bb3a5">Contact with parts</text>
+    </g>
+    <g transform="translate(295, 60)">
+      <rect width="120" height="65" rx="4" fill="#18241d" stroke="#facc15" stroke-width="1"/>
+      <text x="10" y="22" font-family="monospace" font-size="11" fill="#facc15" font-weight="bold">3. VEHICLE</text>
+      <text x="10" y="42" font-family="sans-serif" font-size="10" fill="#9bb3a5">Forklift collision</text>
+    </g>
+    <g transform="translate(25, 145)">
+      <rect width="120" height="65" rx="4" fill="#18241d" stroke="#06b6d4" stroke-width="1"/>
+      <text x="10" y="22" font-family="monospace" font-size="11" fill="#06b6d4" font-weight="bold">4. FALLING</text>
+      <text x="10" y="42" font-family="sans-serif" font-size="10" fill="#9bb3a5">Drop from heights</text>
+    </g>
+    <g transform="translate(160, 145)">
+      <rect width="120" height="65" rx="4" fill="#18241d" stroke="#a855f7" stroke-width="1"/>
+      <text x="10" y="22" font-family="monospace" font-size="11" fill="#a855f7" font-weight="bold">5. ELECTRICAL</text>
+      <text x="10" y="42" font-family="sans-serif" font-size="10" fill="#9bb3a5">Shock &amp; Grounding</text>
+    </g>
+    <g transform="translate(295, 145)">
+      <rect width="120" height="65" rx="4" fill="#18241d" stroke="#ec4899" stroke-width="1"/>
+      <text x="10" y="22" font-family="monospace" font-size="11" fill="#ec4899" font-weight="bold">6. THERMAL</text>
+      <text x="10" y="42" font-family="sans-serif" font-size="10" fill="#9bb3a5">Extreme heat/fire</text>
+    </g>
+  </g>
+  <text x="50" y="460" font-family="monospace" font-size="11" fill="#6d8576">ZERO ACCIDENT CULTURE // KYT (KIKEN YOCHI TRAINING) INTEGRATED</text>
+  <text x="750" y="460" font-family="monospace" font-size="11" fill="#10b981" text-anchor="end">COMPLIANCE STATUS: 100%</text>
+</svg>
